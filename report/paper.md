@@ -72,13 +72,14 @@ We used the Nightingale library (https://ebi-webcomponents.github.io/nightingale
 
 ![The Nightingale plugin in the MINERVA Platform \label{fig_nmp}](./nghtgl_mnv_plg.png)
 
-The Nightingale plugin relies on the UniProt identifiers in the Map for which it is loaded (). It displays the set of annotations interactively, extending the content of a given Map. Moreover, the plugin allows to incorporate genomic data overlays into the Nightingale visualisation. 
-
-We defined standards for the data exchange for Nightingale components, to make them easily usable by other ELIXIR resources.
-
-
-
+The Nightingale plugin relies on the UniProt identifiers in the Map for which it is loaded (code available https://gitlab.lcsb.uni.lu/minerva/plugins/protvista). It displays the set of annotations interactively, extending the content of a given Map. Moreover, the plugin allows to incorporate genetic variant overlays into the Nightingale visualisation, for variants where information on amino-acid change is provided.
 
 # Conclusions
 
+We have harmonised protein and pathway-level visualisation tools, allowing faster and more effcient exploration and interpretation of disease-related molecular mechanisms. 
 
+First, we enabled side-to-side browsing of UniProt and Disease Maps contents. Bringing together detailed protein annotations and showing the pathway context for these proteins at the same time.
+
+By setting up the Nightingale MINERVA plugin, we extended the support of the library to the Disease Maps. Moreover, we defined standards for the data exchange for Nightingale components, to make them easily usable by other ELIXIR resources.
+
+Finally, the use-case of COVID-19 allowed us to identify gaps in the COVID-19 Disease Map, and to prepare a dedicated build with enriched annotation of the Map.
