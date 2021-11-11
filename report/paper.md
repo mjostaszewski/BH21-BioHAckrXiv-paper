@@ -62,6 +62,9 @@ including the protein feature annotation viewer ProtVista, a protein interaction
 
 We defined standards for the data exchange for Nightingale components, to make them easily usable by other ELIXIR resources.
 
+![A Nightingale plugin in the MINERVA Platform \label{fig_nmp}](./nghtgl_mnv_plg.png)
+
+
 # Conclusions
 
 
