@@ -64,6 +64,8 @@ We combined these two resources by extending the newly developed UniProt website
 
 The content of two resources is matched based on their UniProt identifiers. After harmonisation, 51 of identifiers (only human proteins) of the UniProt colection are missing in the map. The reason for this difference is that the curators of the Map diagrams did not find sufficient evidence for concrete molecular interactions linking these proteins to particular pathways. This can be resolved in subsequent steps by curation of the Map supported by bioinformatic workflows like text mining and network analysis [@ostaszewski_covid19map_2021].
 
+The integration of these resources is interactive, the selection of a protein entity in the widget triggers the highlight of the corresponding UniProt entry, allowing further exploration of the annotation. Likewise, the selection of a protein card in UniProt triggers a search in the Minerva widget, highlighting the corresponding entities in the disease map.
+
 ## A Nightingale plugin in the MINERVA Platform
 
 We used the Nightingale library (https://ebi-webcomponents.github.io/nightingale/#/), a suite of standardised modular data visualisation components, including the protein feature annotation viewer ProtVista [@watkins_protvista_2017], a protein interaction visualisation and a 3D viewer Mol* (https://molstar.org). Nightingale was incorporated into the MINERVA platfrom as a plugin, following a previously defined architecture [@hoksza_closing_2020] (see Figure \ref{fig_nmp}).
