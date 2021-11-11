@@ -83,3 +83,5 @@ First, we enabled side-to-side browsing of UniProt and Disease Maps contents. Br
 By setting up the Nightingale MINERVA plugin, we extended the support of the library to the Disease Maps. Moreover, we defined standards for the data exchange for Nightingale components, to make them easily usable by other ELIXIR resources.
 
 Finally, the use-case of COVID-19 allowed us to identify gaps in the COVID-19 Disease Map, and to prepare a dedicated build with enriched annotation of the Map.
+
+# Bibliography
