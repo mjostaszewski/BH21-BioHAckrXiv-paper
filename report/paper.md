@@ -47,15 +47,24 @@ Research on human diseases often involves their molecular mechanisms, in an atte
 Our work focuses on visualisation of protein level annotations, from gene/protein annotation, 
 protein-protein interaction, pathways and genomic variation. We integrate i) protein-level annotations of UniProt (https://uniprot.org) with an embedded browser of Disease Maps (disease-maps.org) and ii) the protein residue level information with Disease Maps ([Nightingale library](https://ebi-webcomponents.github.io/nightingale/#/)).
 
-# An interface between UniProt and Disease Maps
+We demonstrate the overall setup with both visualisation workflows on the COVID-19 Disease Map.
+In particular, the list of UniProt entries related to COVID-19 can be shown side-by-side with the Map, allowing simultaneous exploration of both resources. Moreover, a dedicated plugin showing protein structures in the Map gives detailed view into the structure of all annotated proteins.
+
+# Results
+
+## An interface between UniProt and Disease Maps
 
 UniProt is a widely recognised protein knowledge base, offering curated information about protein structure and function. Recently, UniProt started to develop disease-centric resources, like Alzheimer’s disease portal and COVID-19 platform (https://diseases.uniprot.org, https://covid-19.uniprot.org). These portals list and organise information about proteins related to a particular disease. 
 
-In turn, Disease Maps (disease-maps.org) provide a standardised, diagrammatic way to encode mechanisms of human diseases (https://biohackrxiv.org/gmbjv/), with COVID-19 as a prime example (https://fairdomhub.org/projects/190). Disease Maps are manually curated, and [...]
+In turn, Disease Maps (disease-maps.org) provide a standardised, diagrammatic way to encode mechanisms of human diseases (https://biohackrxiv.org/gmbjv/), with COVID-19 as a prime example (https://fairdomhub.org/projects/190). Disease Maps are manually curated and rely on web-based platforms to explore them [@mazein_systems_2018]. One of them is the MINERVA Platform [@gawron_minerva-platform_2016], offering a range of exploration and visualisation functionalities. One of these functionalities is the recently developed widget (https://gitlab.lcsb.uni.lu/minerva/widget) allowing easy embedding of MINERVA-hosted maps into other websites.
+
+We combined these two resources by extending the newly developed UniProt website (https://beta.uniprot.org) to embed the widget for the [COVID-19 Disease Map](https://covid19map.elixir-luxembourg.org/minerva/index.xhtml?id=covid19_map_BH21_v1). This way a dedicated COVID-19 collection of UniProt (https://covid-19.uniprot.org) is flanked by the diagrams of the Map.
+
+![UniProt (beta) embedding MINERVA plugin \label{fig_nmp}](./unpb_mnvw.gif)
 
 We embeded diagrams visualised by MINERVA with corresponding protein-level visualisations. 
 
-# A Nightingale plugin in the MINERVA Platform
+## A Nightingale plugin in the MINERVA Platform
 
 We used the Nightingale library (https://ebi-webcomponents.github.io/nightingale/#/), a suite of standardised modular data visualisation components, 
 including the protein feature annotation viewer ProtVista, a protein interaction visualisation and a 3D viewer Mol* (https://molstar.org). [...]
