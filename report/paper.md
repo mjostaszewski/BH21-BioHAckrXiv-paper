@@ -60,9 +60,9 @@ In turn, Disease Maps (disease-maps.org) provide a standardised, diagrammatic wa
 
 We combined these two resources by extending the newly developed UniProt website (https://beta.uniprot.org) to embed the widget for the [COVID-19 Disease Map](https://covid19map.elixir-luxembourg.org/minerva/index.xhtml?id=covid19_map_BH21_v1). This way a dedicated COVID-19 collection of UniProt (https://covid-19.uniprot.org) is flanked by the diagrams of the Map.
 
-![UniProt (beta) embedding MINERVA plugin \label{fig_nmp}](./unpb_mnvw.gif)
+![UniProt (beta) embedding the COVID-19 Disease Map via MINERVA widget \label{fig_nmp}](./unpb_mnvw.gif)
 
-We embeded diagrams visualised by MINERVA with corresponding protein-level visualisations. 
+The content of two resources is matched based on their UniProt identifiers. After harmonisation, 51 of identifiers (only human proteins) of the UniProt colection are missing in the map. The reason for this difference is that the curators of the Map diagrams did not find sufficient evidence for concrete molecular interactions linking these proteins to particular pathways. This can be resolved in subsequent steps by curation of the Map supported by bioinformatic workflows like text mining and network analysis [@ostaszewski_covid19map_2021].
 
 ## A Nightingale plugin in the MINERVA Platform
 
