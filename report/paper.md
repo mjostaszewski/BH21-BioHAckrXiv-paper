@@ -68,9 +68,11 @@ The integration of these resources is interactive. The selection of a protein en
 
 ## A Nightingale plugin in the MINERVA Platform
 
-We used the Nightingale library (https://ebi-webcomponents.github.io/nightingale/#/), a suite of standardised modular data visualisation components, including the protein feature annotation viewer ProtVista [@watkins_protvista_2017] and a protein interaction visualisation and a 3D viewer Mol* (https://molstar.org). Nightingale was incorporated into the MINERVA platfrom as a plugin, following a previously defined architecture [@hoksza_closing_2020] (see Figure \ref{fig_nmp}).
+We used the Nightingale library (https://ebi-webcomponents.github.io/nightingale/#/), a suite of standardised modular data visualisation components, including the protein feature annotation viewer ProtVista [@watkins_protvista_2017] and a protein interaction visualisation and a 3D viewer Mol* (https://molstar.org). Nightingale was incorporated into the MINERVA platfrom as a plugin, following a previously defined architecture [@hoksza_closing_2020] (see Figures \ref{fig_nmp1}, \ref{fig_nmp2} and \ref{fig_nmp3}).
 
-![The Nightingale plugin in the MINERVA Platform \label{fig_nmp}](./nghtgl_mnv_plg.png)
+![The Nightingale plugin in the MINERVA Platform: ProtVista \label{fig_nmp1}](./nghtgl_mnv_plg1.gif)
+![The Nightingale plugin in the MINERVA Platform: Variants  \label{fig_nmp2}](./nghtgl_mnv_plg2.gif)
+![The Nightingale plugin in the MINERVA Platform: Structure view  \label{fig_nmp3}](./nghtgl_mnv_plg3.gif)
 
 The Nightingale plugin relies on the UniProt identifiers in the Map for which it is loaded (code available https://gitlab.lcsb.uni.lu/minerva/plugins/protvista). It displays the set of annotations interactively, extending the content of a given Map. Moreover, the plugin allows to incorporate user-provided genetic variant overlays into the Nightingale visualisation, for variants where information on amino-acid change is provided.
 
